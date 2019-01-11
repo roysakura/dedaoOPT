@@ -8,12 +8,12 @@ def main():
 		cur = float(cur)
 		target = float(target)
 		
-		range_6 = range(0,int(target/6)+1)
-		range_68 = range(0,int(target/68)+1)
-		range_88 = range(0,int(target/88)+1)
-		range_208 = range(0,int(target/208)+1)
-		range_388 = range(0,int(target/388)+1)
-		range_998 = range(0,int(target/998)+1)
+		range_6 = range(0,int(target/6)+2)
+		range_68 = range(0,int(target/68)+2)
+		range_88 = range(0,int(target/88)+2)
+		range_208 = range(0,int(target/208)+2)
+		range_388 = range(0,int(target/388)+2)
+		range_998 = range(0,int(target/998)+2)
 
 		results = {}
 		for a in range_6:
